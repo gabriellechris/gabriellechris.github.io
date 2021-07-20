@@ -1,23 +1,24 @@
-
 .jumbotron {
   padding-top: 6rem;
-  background: #B77CCF; 
-  background: linear-gradient(90deg, rgba(15, 10, 69, 1) 0%, rgba(100, 34, 126, 1) 26%, rgba(149, 9, 201, 1) 47%, rgba(9, 51, 107, 1) 82%, rgba(2, 46, 55, 1) 100%)"
-
+  background: #a770bd;
 }
 
-#projects{
-  background-color: #B77CCF;
+#projects {
+  background: #a770bd;
 }
 
-footer{
-  background-color: #B77CCF;
+footer {
+  background-color: #a770bd;
 }
 
-section{
-  padding-top: 5rem;
+section {
+  padding-top: 8rem;
 }
 
-.card{
+.card {
   text-align: center;
+}
+
+.swal-overlay {
+  background-color: rgba(139, 134, 218, 0.45);
 }
