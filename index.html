@@ -15,6 +15,9 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Awesome Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
     <title>GCK's Portfolio</title>
   </head>
   <body id="home">
@@ -23,15 +26,13 @@
       class="navbar navbar-expand-lg navbar-dark shadow fixed-top"
       style="background: rgb(187, 73, 233); background: linear-gradient(90deg, rgba(187, 73, 233, 0.6923144257703081) 0%, rgba(41, 40, 185, 0.7259278711484594) 50%, rgba(171, 62, 215, 0.5914740896358543) 100%)"
     >
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="https://i.ibb.co/LrqVZ3G/Group-7-1.png" alt="Logo of GCK" width="10%" height="10%" />
-        </a>
+      <div class="container-fluid" id="navbarNavAltMarkup">
+        <img src="https://i.ibb.co/LrqVZ3G/Group-7-1.png" alt="Logo of GCK" width="4.5%" height="4.5%" />
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
+        <div class="navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav container-fluid ms-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#home">Home</a>
             </li>
@@ -45,6 +46,41 @@
               <a class="nav-link" href="#contact" onclick="button_contact_me()">Contact Me</a>
             </li>
           </ul>
+        </div>
+
+        <div class="wrapper me-auto">
+          <a href="https://www.linkedin.com/in/gabriellachristinak/">
+            <div class="button">
+              <div class="icon">
+                <i class="fab fa-linkedin-in"></i>
+              </div>
+              <span>LinkedIn</span>
+            </div>
+          </a>
+          <a href="https://drive.google.com/file/d/1e2XueI6xU6KIPv4V-Ywa7wkQ6UDzQLys/view?usp=sharing">
+            <div class="button">
+              <div class="icon">
+                <i class="fab fa-google-drive"></i>
+              </div>
+              <span>My CV</span>
+            </div>
+          </a>
+          <a href="https://www.notion.so/Gabriella-Christina-Kandinata-s-Portfolio-e44e3c43c0ed4069bb7b9c4a069c2ae1">
+          <div class="button">
+            <div class="icon">
+              <i class="fas fa-sticky-note"></i>
+            </div>
+            <span>Portofolio</span>
+          </div>
+        </a>
+        <a href="mailto:gabriellachristina33@gmail.com">
+          <div class="button">
+            <div class="icon">
+              <i class="far fa-envelope"></i>
+            </div>
+            <span>E-mail</span>
+          </a>
+          </div>
         </div>
       </div>
     </nav>
@@ -218,7 +254,70 @@
         ></path>
       </svg>
     </section>
-    <!-- end of contact me -->
+    <!-- end of contact me-->
+
+    <!-- get in touch 
+    
+    <section id="get-in-touch">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col mb-3 text-black-50">
+            <h2>Get In Touch</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <a href="https://www.linkedin.com/in/gabriellachristinak/"></a>
+              <img src="https://i.ibb.co/Ct6jLjB/pexels-dana-tentis-691114.jpg" class="card-img-top" alt="E-mail" />
+              <div class="card-body">
+                <h5 class="card-title">aE-mail</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="https://i.ibb.co/VWWFrc4/blog-and-medium.jpg" class="card-img-top" alt="Project Medium and Blog" />
+              <div class="card-body">
+                <h5 class="card-title">LinkedIn/h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="https://i.ibb.co/x2nVqPN/data-science.jpg" class="card-img-top" alt="CV" />
+              <div class="card-body">
+                <h5 class="card-title">Curriculum Vitae</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="https://i.ibb.co/17K4NTN/pexels-plann-4549415.jpg" class="card-img-top" alt="Portofolio" />
+              <div class="card-body">
+                <h5 class="card-title">Portofolio</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="card">
+              <img src="https://i.ibb.co/DpyKrXS/pexels-mikael-blomkvist-6476254.jpg" class="card-img-top" alt="Project Morality Effect on Debt Repayment" />
+              <div class="card-body">
+                <h5 class="card-title">GitHub</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#a770bd"
+          fill-opacity="1"
+          d="M0,256L60,240C120,224,240,192,360,192C480,192,600,224,720,250.7C840,277,960,299,1080,272C1200,245,1320,171,1380,133.3L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"
+        ></path>
+      </svg>
+    </section>
+    -->
 
     <!-- footer -->
     <footer class="text-white text-center pb-4">
